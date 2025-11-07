@@ -29,52 +29,52 @@
     "subheadline": "Više od 20 godina tradicije u Bezistanu. Brzo, kvalitetno i uvijek tu za vas.",
     "ctaText": "Kontaktirajte Nas",
     "ctaHref": "#kontakt",
-    "heroImage": "/public/slika1.jpg"
+    "heroImage": "public/slika1.jpg"
   },
   "about": {
     "title": "O Nama",
     "text": "Kopirnica Bezistan je tradicionalna kopirnica smještena u istorijskom Bezistanu u centru Sarajeva. Već više od dvije decenije pružamo vrhunske usluge fotokopiranja, printanja i uvezivanja našim vjernim klijentima. Naša lokacija u srcu grada čini nas dostupnim svima — studentima, poslovnim korisnicima i svima koji traže brzu i kvalitetnu uslugu. Uz moderno opremljen prostor i iskusno osoblje, garantujemo da će vaši dokumenti biti obrađeni s pažnjom i profesionalnošću.",
-    "image": "/public/slika2.jpg"
+    "image": "public/slika2.jpg"
   },
   "services": [
     {
       "title": "Fotokopiranje i Skeniranje",
       "text": "Crno-bijelo i kolor kopiranje svih formata. Brzo skeniranje dokumenata u digitalni format.",
-      "image": "/public/slika3.jpg"
+      "image": "public/slika3.jpg"
     },
     {
       "title": "Print Letaka, Brošura, Plakata",
       "text": "Profesionalni print na raznim materijalima i formatima. Idealno za promotivne materijale.",
-      "image": "/public/slika4.jpg"
+      "image": "public/slika4.jpg"
     },
     {
       "title": "Uvezivanje i Lamiranje",
       "text": "Spiralno, termo i tvrdo uvezivanje. Lamiranje dokumenata u različitim debljinama.",
-      "image": "/public/slika3.jpg"
+      "image": "public/slika3.jpg"
     },
     {
       "title": "Digitalizacija Dokumenata",
       "text": "Skeniranje i digitalizacija starih dokumenata, slanje putem email-a ili arhiviranje na USB.",
-      "image": "/public/slika4.jpg"
+      "image": "public/slika4.jpg"
     },
     {
       "title": "Studentske Usluge",
       "text": "Kopiranje skripti, priprema za ispite, povoljne cijene za studente. Uvijek brzo i precizno.",
-      "image": "/public/slika3.jpg"
+      "image": "public/slika3.jpg"
     },
     {
       "title": "Ekspres Print",
       "text": "Hitne narudžbe? Nudimo ekspres uslugu za dokumenta koja vam trebaju odmah.",
-      "image": "/public/slika4.jpg"
+      "image": "public/slika4.jpg"
     }
   ],
   "gallery": [
-    "/public/slika3.jpg",
-    "/public/slika4.jpg",
-    "/public/slika1.jpg",
-    "/public/slika2.jpg",
-    "/public/slika3.jpg",
-    "/public/slika4.jpg"
+    "public/slika3.jpg",
+    "public/slika4.jpg",
+    "public/slika1.jpg",
+    "public/slika2.jpg",
+    "public/slika3.jpg",
+    "public/slika4.jpg"
   ],
   "reasons": [
     "Više od 20 godina iskustva u printanju i kopiranju",
