@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kopirnica Bezistan - Vaša pouzdana kopirnica u srcu Sarajeva. Fotokopiranje, print, uvezivanje i više.">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kopirnica Bezistan - Sarajevo">
+    <meta property="og:description" content="Tradicionalna kopirnica u Bezistanu. Brzo, kvalitetno, povoljno.">
+    <meta property="og:image" content="/public/og-image.png">
+    
+    <title>Kopirnica Bezistan - Sarajevo</title>
+    
+    <link rel="icon" type="image/x-icon" href="/public/favicon.ico">
+    <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-logo">
+                <img src="/public/logo.png" alt="Kopirnica Bezistan Logo" width="120" height="40">
+            </div>
+            <ul class="nav-menu" id="navMenu"></ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title" id="heroTitle"></h1>
+                <p class="hero-subtitle" id="heroSubtitle"></p>
+                <a href="#" class="btn btn-primary" id="heroCta"></a>
+            </div>
+            <div class="hero-image">
+                <img src="" alt="Kopirnica Bezistan" id="heroImage" loading="eager">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="o-nama">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="" alt="Naša radnja" id="aboutImage" loading="lazy">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title" id="aboutTitle"></h2>
+                    <p class="about-description" id="aboutText"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="usluge">
+        <div class="container">
+            <h2 class="section-title center">Naše Usluge</h2>
+            <div class="services-grid" id="servicesGrid"></div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery section">
+        <div class="container">
+            <h2 class="section-title center">Galerija</h2>
+            <div class="gallery-grid" id="galleryGrid"></div>
+        </div>
+    </section>
+
+    <!-- Reasons Section -->
+    <section class="reasons section">
+        <div class="container">
+            <h2 class="section-title center">Zašto Nas Odabrati</h2>
+            <ul class="reasons-list" id="reasonsList"></ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="kontakt">
+        <div class="container">
+            <h2 class="section-title center">Kontakt & Lokacija</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Adresa</h3>
+                        <p id="contactAddress"></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Telefon</h3>
+                        <p><a href="#" id="contactPhone"></a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p><a href="#" id="contactEmail"></a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Radno Vrijeme</h3>
+                        <ul id="workingHours"></ul>
+                    </div>
+                    <a href="#" class="btn btn-secondary" id="contactCta">Pošalji Email</a>
+                </div>
+                <div class="contact-map">
+                    <a href="#" id="mapLink" target="_blank" rel="noopener" class="map-placeholder">
+                        <span>📍 Otvori na Mapi</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p id="footerCopy"></p>
+                <div class="footer-social" id="footerSocial"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/main.js"></script>
+</body>
+</html>
