@@ -12,7 +12,12 @@
     <meta property="og:image" content="public/og-image.png">
     
     <title>Kopirnica Bezistan - Sarajevo</title>
-    
+    <!-- Swiper CSS (carousel biblioteka) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<!-- Naš dodatni stil za kartice i lightbox -->
+<link rel="stylesheet" href="assets/carousel.css">
+
     <link rel="icon" type="image/x-icon" href="public/favicon.ico">
     <link rel="stylesheet" href="assets/styles.css">
 </head>
@@ -65,12 +70,113 @@
     </section>
 
     <!-- Gallery Section -->
-    <section class="gallery section">
-        <div class="container">
-            <h2 class="section-title center">Galerija</h2>
-            <div class="gallery-grid" id="galleryGrid"></div>
+    <section id="galerija" class="section section--gallery">
+  <div class="container">
+    <h2 class="section-title">Galerija radova</h2>
+
+    <!-- Carousel wrapper -->
+    <div class="swiper cardSwiper">
+      <div class="swiper-wrapper">
+
+        <!-- 1. kartica/slajd -->
+        <div class="swiper-slide">
+          <article class="card">
+            <figure class="card__media">
+              <img
+                class="card__img"
+                src="assets/img/galerija/slika1_640.jpg"
+                srcset="
+                  assets/img/galerija/slika1_480.jpg 480w,
+                  assets/img/galerija/slika1_640.jpg 640w,
+                  assets/img/galerija/slika1_960.jpg 960w,
+                  assets/img/galerija/slika1_1280.jpg 1280w
+                "
+                sizes="(max-width: 640px) 85vw, (max-width: 1024px) 45vw, 30vw"
+                alt="Primjer kolor štampe letaka"
+                loading="lazy"
+                data-full="assets/img/galerija/slika1_full.jpg"
+              />
+            </figure>
+            <div class="card__body">
+              <h3 class="card__title">Letci u boji</h3>
+              <p class="card__text">Štampa na 130–170 g/m², mat ili sjaj. Brza isporuka.</p>
+            </div>
+          </article>
         </div>
-    </section>
+
+        <!-- 2. kartica/slajd -->
+        <div class="swiper-slide">
+          <article class="card">
+            <figure class="card__media">
+              <img
+                class="card__img"
+                src="assets/img/galerija/slika2_640.jpg"
+                srcset="
+                  assets/img/galerija/slika2_480.jpg 480w,
+                  assets/img/galerija/slika2_640.jpg 640w,
+                  assets/img/galerija/slika2_960.jpg 960w,
+                  assets/img/galerija/slika2_1280.jpg 1280w
+                "
+                sizes="(max-width: 640px) 85vw, (max-width: 1024px) 45vw, 30vw"
+                alt="Uvez i plastifikacija dokumenata"
+                loading="lazy"
+                data-full="assets/img/galerija/slika2_full.jpg"
+              />
+            </figure>
+            <div class="card__body">
+              <h3 class="card__title">Uvez & plastifikacija</h3>
+              <p class="card__text">Spiralni i termo uvez, A4/A3 plastifikacija.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- 3. kartica/slajd -->
+        <div class="swiper-slide">
+          <article class="card">
+            <figure class="card__media">
+              <img
+                class="card__img"
+                src="assets/img/galerija/slika3_640.jpg"
+                srcset="
+                  assets/img/galerija/slika3_480.jpg 480w,
+                  assets/img/galerija/slika3_640.jpg 640w,
+                  assets/img/galerija/slika3_960.jpg 960w,
+                  assets/img/galerija/slika3_1280.jpg 1280w
+                "
+                sizes="(max-width: 640px) 85vw, (max-width: 1024px) 45vw, 30vw"
+                alt="Plakati i posteri"
+                loading="lazy"
+                data-full="assets/img/galerija/slika3_full.jpg"
+              />
+            </figure>
+            <div class="card__body">
+              <h3 class="card__title">Plakati & posteri</h3>
+              <p class="card__text">Visoka rezolucija, više formata i papira.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Dodaj koliko želiš .swiper-slide elemenata po istom principu -->
+
+      </div>
+
+      <!-- Navigacija i paginacija -->
+      <div class="swiper-button-prev" aria-label="Prethodni slajd"></div>
+      <div class="swiper-button-next" aria-label="Sljedeći slajd"></div>
+      <div class="swiper-pagination" aria-label="Stranice"></div>
+    </div>
+  </div>
+
+  <!-- Lightbox za uvećanje slike -->
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+    <button class="lightbox__close" aria-label="Zatvori (Esc)">✕</button>
+    <figure class="lightbox__figure">
+      <img class="lightbox__img" alt="" />
+      <figcaption class="lightbox__caption"></figcaption>
+    </figure>
+  </div>
+</section>
+
 
     <!-- Reasons Section -->
     <section class="reasons section">
@@ -122,6 +228,12 @@
             </div>
         </div>
     </footer>
+
+    <!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Naš JS za inicijalizaciju karusela i lightbox -->
+<script src="assets/carousel.js"></script>
 
     <script src="assets/main.js"></script>
 </body>
