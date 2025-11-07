@@ -4,7 +4,7 @@
     "description": "Tradicionalna kopirnica u Bezistanu, Sarajevo. Fotokopiranje, print, uvezivanje, lamiranje i sve usluge za studente i poslovne korisnike.",
     "ogTitle": "Kopirnica Bezistan - Vaša Pouzdana Kopirnica u Sarajevu",
     "ogDescription": "Brzo, kvalitetno i povoljno. Sve usluge printanja i kopiranja na jednom mjestu u srcu Sarajeva.",
-    "ogImage": "/public/og-image.png"
+    "ogImage": "public/og-image.png"
   },
   "nav": [
     {
