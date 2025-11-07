@@ -29,12 +29,12 @@
     "subheadline": "Više od 20 godina tradicije u Bezistanu. Brzo, kvalitetno i uvijek tu za vas.",
     "ctaText": "Kontaktirajte Nas",
     "ctaHref": "#kontakt",
-    "heroImage": "public/slika1.jpg"
+    "heroImage": "public/slika1.jpeg"
   },
   "about": {
     "title": "O Nama",
     "text": "Kopirnica Bezistan je tradicionalna kopirnica smještena u istorijskom Bezistanu u centru Sarajeva. Već više od dvije decenije pružamo vrhunske usluge fotokopiranja, printanja i uvezivanja našim vjernim klijentima. Naša lokacija u srcu grada čini nas dostupnim svima — studentima, poslovnim korisnicima i svima koji traže brzu i kvalitetnu uslugu. Uz moderno opremljen prostor i iskusno osoblje, garantujemo da će vaši dokumenti biti obrađeni s pažnjom i profesionalnošću.",
-    "image": "public/slika2.jpg"
+    "image": "public/slika2.jpeg"
   },
   "services": [
     {
