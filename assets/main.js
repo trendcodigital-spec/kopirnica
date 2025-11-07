@@ -3,7 +3,7 @@
     'use strict';
 
     // Fetch content
-    fetch('/content.json')
+    fetch('content.json')
         .then(response => {
             if (!response.ok) throw new Error('Ne mogu učitati content.json');
             return response.json();
