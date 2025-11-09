@@ -479,3 +479,92 @@ button:focus {
   }
 }
 
+/* ===== Hero: desktop layout i estetika ===== */
+.hero {
+  /* malo dublja pozadina + nježna tekstura */
+  background:
+    radial-gradient(1200px 600px at 110% 20%, rgba(0,0,0,0.12), transparent 60%),
+    linear-gradient(180deg, #0d6a5f 0%, #0f6f63 100%);
+  padding: clamp(3rem, 5vw, 6rem) 0;
+}
+
+.hero .container {
+  max-width: 1200px; /* sigurnija širina */
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 520px; /* tekst | slika */
+  align-items: center;
+  gap: 4rem;
+}
+
+/* Tekst kolona sužena da ne “pliva” preširoko */
+.hero-text {
+  max-width: 620px;
+}
+
+.hero-title {
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: clamp(1rem, 1.1vw + .9rem, 1.25rem);
+  line-height: 1.6;
+  color: #e9f7f5;
+  opacity: 0.95;
+  margin-bottom: 2rem;
+}
+
+/* Mali badge (ako ga dodaš u HTML) */
+.badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.22);
+  padding: .35rem .6rem;
+  border-radius: 999px;
+  font-size: .85rem;
+  margin-bottom: 1rem;
+  backdrop-filter: blur(2px);
+}
+
+/* Slika: fiksna karta sa lijepim odnosom i sjenom */
+.hero-image {
+  display: grid;
+  place-items: center;
+}
+
+.hero-image img {
+  width: 520px;
+  height: 520px;
+  object-fit: cover;
+  border-radius: 24px;
+  box-shadow:
+    0 10px 30px rgba(0,0,0,.25),
+    0 2px 0 rgba(255,255,255,0.15) inset;
+  transform: translateX(12px); /* mrvu udesno da vizuelno izbalansira */
+}
+
+/* CTA gumb malo izraženiji na hero pozadini */
+.btn.btn-primary {
+  box-shadow: 0 8px 20px rgba(0,0,0,.25);
+}
+
+/* ===== Responsive finoća ===== */
+@media (max-width: 1024px) {
+  .hero-content {
+    grid-template-columns: 1fr; /* na tablet/mob jedna kolona */
+    gap: 2rem;
+  }
+  .hero-image img {
+    width: min(100%, 520px);
+    height: auto;
+    transform: none;
+  }
+  .hero-text { max-width: 700px; }
+}
+
+
