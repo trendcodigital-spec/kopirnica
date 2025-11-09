@@ -153,6 +153,26 @@ gap: var(--spacing-md);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
+/* Pomjeranje slike u hero sekciji malo udesno na desktopu */
+.hero-image img {
+  transform: translateX(25px); /* pomakni 25px udesno */
+}
+
+/* Dodatno za velike ekrane */
+@media (min-width: 1024px) {
+  .hero-image img {
+    transform: translateX(50px); /* još malo više za desktop */
+  }
+}
+
+/* Na mobilnim uređajima neka ostane centrirano */
+@media (max-width: 768px) {
+  .hero-image img {
+    transform: none;
+  }
+}
+
+
 @media (min-width: 768px) {
     .hero-content {
         grid-template-columns: 1fr 1fr;
