@@ -1,4 +1,4 @@
-{
+napravi mi novi content sa ovim slikama i dodacima vidis gdje png gdje jpg jpeg itd. ovo je json koji treba da upratis sad ti izmjeni ostalo a slike da budu sa ovim dodacima: {
   "site": {
     "title": "Kopirnica Bezistan - Sarajevo",
     "description": "Tradicionalna kopirnica u Bezistanu, Sarajevo. Fotokopiranje, print, uvezivanje, lamiranje i sve usluge za studente i poslovne korisnike.",
@@ -29,36 +29,12 @@
   },
 
   "services": [
-    {
-      "title": "Fotokopiranje i skeniranje",
-      "text": "Crno-bijelo i kolor kopiranje svih formata, brzo skeniranje u PDF.",
-      "image": "/public/slika3.png"
-    },
-    {
-      "title": "Letci, brošure, plakati",
-      "text": "Profesionalna štampa promotivnih materijala na raznim papirima.",
-      "image": "/public/slika4.PNG"
-    },
-    {
-      "title": "Uvez i plastifikacija",
-      "text": "Spiralni i termo uvez, A4/A3 plastifikacija dokumenata.",
-      "image": "/public/slika5.jpg"
-    },
-    {
-      "title": "Studentske usluge",
-      "text": "Skripte, skraćivanje i priprema materijala, povoljne cijene.",
-      "image": "/public/slika6.PNG"
-    },
-    {
-      "title": "Digitalizacija dokumenata",
-      "text": "Skeniranje, USB/Email isporuka i arhiviranje.",
-      "image": "/public/slika7.PNG"
-    },
-    {
-      "title": "Ekspres print",
-      "text": "Hitne narudžbe – dokumenti odmah spremni.",
-      "image": "/public/slika8.JPG"
-    }
+    { "title": "Fotokopiranje i skeniranje", "text": "Crno-bijelo i kolor kopiranje svih formata, brzo skeniranje u PDF.", "image": "/public/slika3.png" },
+    { "title": "Letci, brošure, plakati",      "text": "Profesionalna štampa promotivnih materijala na raznim papirima.",    "image": "/public/slika4.PNG" },
+    { "title": "Uvez i plastifikacija",        "text": "Spiralni i termo uvez, A4/A3 plastifikacija dokumenata.",         "image": "/public/slika5.jpg" },
+    { "title": "Studentske usluge",            "text": "Skripte, skracivanje i priprema materijala, povoljne cijene.",    "image": "/public/slika6.PNG" },
+    { "title": "Digitalizacija dokumenata",    "text": "Skeniranje, USB/Email isporuka i arhiviranje.",                   "image": "/public/slika7.PNG" },
+    { "title": "Ekspres print",                "text": "Hitne narudžbe – dokumenti odmah spremni.",                       "image": "/public/slika8.JPG" }
   ],
 
   "gallery": [
@@ -91,7 +67,7 @@
   "footer": {
     "copy": "© 2025 Kopirnica Bezistan. Sva prava zadržana.",
     "social": [
-      { "label": "Facebook", "href": "https://facebook.com" },
+      { "label": "Facebook",  "href": "https://facebook.com" },
       { "label": "Instagram", "href": "https://instagram.com" }
     ]
   }
