@@ -186,21 +186,48 @@ ul{ list-style:none; }
 }
 
 /* Responsivno ponašanje */
+/* ===== Responsivno ponašanje ===== */
 @media (max-width:1024px){
   .hero-content{
     grid-template-columns:1fr;
     gap:2rem;
   }
+
   .hero-image img{
     width:min(100%,520px);
     height:auto;
     transform:none;
   }
+
   .hero-text{
     max-width:700px;
   }
+
   .hero-cta{
     width:100%;
+  }
+}
+
+/* ===== Na telefonu dugme ide ispod slike ===== */
+@media (max-width:768px){
+  .hero-content{
+    display:flex;
+    flex-direction:column;
+  }
+
+  .hero-text{
+    order:1; /* tekst ide prvi */
+  }
+
+  .hero-image{
+    order:2; /* slika ide ispod teksta */
+  }
+
+  .hero-cta{
+    order:3; /* dugme ide ispod slike */
+    width:90%;
+    align-self:center;
+    margin-top:1rem;
   }
 }
 
