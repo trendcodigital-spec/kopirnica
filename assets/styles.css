@@ -450,30 +450,3 @@ button:focus {
         transition: none !important;
     }
 }
-
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-/* Footer uvijek ide do kraja */
-.footer {
-  margin-top: auto;
-  background-color: var(--clr-ink); /* već imaš definisano */
-  color: var(--clr-white);
-}
-
-body {
-  background-color: var(--clr-bg);
-}
-
-html {
-  background-color: var(--clr-ink);
-}
