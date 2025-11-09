@@ -11,9 +11,6 @@
     }
   ],
   "rewrites": [
-    { "source": "content.json", "destination": "content.json" },
-    { "source": "/assets/:path*", "destination": "/assets/:path*" },
-    { "source": "/public/:path*", "destination": "/public/:path*" },
-    { "source": "/", "destination": "index.html" }
+    { "source": "/content.json", "destination": "/content.json" }
   ]
 }
