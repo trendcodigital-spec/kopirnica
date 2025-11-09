@@ -135,8 +135,10 @@ gap: var(--spacing-md);
 .hero-content {
     display: grid;
     grid-template-columns: 1fr;
-    gap: var(--spacing-lg);
     align-items: center;
+    gap: 4rem; /* povećava razmak između teksta i slike */
+}
+
 }
 
 .hero-title {
