@@ -69,9 +69,12 @@
     }
   ],
   "gallery": [
-    "public/galerijaslika1.jpg",
-    "public/galerijaslika2.png",
-    "public/galerijaslika3.jpg",
+"public/slika3.jpg",
+"public/slika4.jpg",
+"public/slika1.jpg"
+"public/slika2.jpg",
+"public/slika3.jpg",
+"public/slika4.jpg"
   
   ],
   "reasons": [
