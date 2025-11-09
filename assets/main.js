@@ -66,7 +66,7 @@
             servicesGrid.appendChild(card);
         });
 
-        // Gallery (guard da ne puca ako nema #galleryGrid)
+        // Gallery (neka ne puca ako nema #galleryGrid)
 const galleryGrid = document.getElementById('galleryGrid');
 if (galleryGrid && Array.isArray(content.gallery)) {
   content.gallery.forEach((imagePath, index) => {
