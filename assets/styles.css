@@ -99,11 +99,7 @@ ul {
 
 .nav-menu {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap; /* 🚫 sprječava prelazak u novi red */
-  gap: 1.2rem;       /* smanji razmak između linkova */
-  white-space: nowrap; /* 🚫 zabranjuje lomljenje teksta u linkovima */
+gap: var(--spacing-md);
 }
 
 .nav-menu a {
