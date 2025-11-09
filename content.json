@@ -19,21 +19,21 @@
     "subheadline": "Više od 20 godina tradicije u Bezistanu. Brzo, kvalitetno i uvijek tu za vas.",
     "ctaText": "Kontaktirajte nas",
     "ctaHref": "#kontakt",
-    "heroImage": "/public/slika1.jpg"
+    "heroImage": "/public/slika1.jpeg"
   },
 
   "about": {
     "title": "Naša radnja",
     "text": "Kopirnica Bezistan je tradicionalna kopirnica smještena u istorijskom Bezistanu u centru Sarajeva. Pružamo fotokopiranje, štampu, uvez i plastifikaciju za studente i poslovne korisnike.",
-    "image": "/public/slika2.jpg"
+    "image": "/public/slika2.jpeg"
   },
 
   "services": [
-    { "title": "Fotokopiranje i skeniranje", "text": "Crno-bijelo i kolor kopiranje svih formata, brzo skeniranje u PDF.", "image": "/public/slika3.jpg" },
-    { "title": "Letci, brošure, plakati",      "text": "Profesionalna štampa promotivnih materijala na raznim papirima.",    "image": "/public/slika4.jpg" },
+    { "title": "Fotokopiranje i skeniranje", "text": "Crno-bijelo i kolor kopiranje svih formata, brzo skeniranje u PDF.", "image": "/public/slika3.png" },
+    { "title": "Letci, brošure, plakati",      "text": "Profesionalna štampa promotivnih materijala na raznim papirima.",    "image": "/public/slika4.png" },
     { "title": "Uvez i plastifikacija",        "text": "Spiralni i termo uvez, A4/A3 plastifikacija dokumenata.",         "image": "/public/slika5.jpg" },
-    { "title": "Studentske usluge",            "text": "Skripte, skracivanje i priprema materijala, povoljne cijene.",    "image": "/public/slika6.jpg" },
-    { "title": "Digitalizacija dokumenata",    "text": "Skeniranje, USB/Email isporuka i arhiviranje.",                   "image": "/public/slika7.jpg" },
+    { "title": "Studentske usluge",            "text": "Skripte, skracivanje i priprema materijala, povoljne cijene.",    "image": "/public/slika6.png" },
+    { "title": "Digitalizacija dokumenata",    "text": "Skeniranje, USB/Email isporuka i arhiviranje.",                   "image": "/public/slika7.png" },
     { "title": "Ekspres print",                "text": "Hitne narudžbe – dokumenti odmah spremni.",                       "image": "/public/slika4.jpg" }
   ],
 
