@@ -66,14 +66,16 @@
             servicesGrid.appendChild(card);
         });
 
-        // Gallery
-        const galleryGrid = document.getElementById('galleryGrid');
-        content.gallery.forEach((imagePath, index) => {
-            const item = document.createElement('div');
-            item.className = 'gallery-item';
-            item.innerHTML = `<img src="${imagePath}" alt="Galerija slika ${index + 1}" loading="lazy">`;
-            galleryGrid.appendChild(item);
-        });
+        // Gallery (guard da ne puca ako nema #galleryGrid)
+const galleryGrid = document.getElementById('galleryGrid');
+if (galleryGrid && Array.isArray(content.gallery)) {
+  content.gallery.forEach((imagePath, index) => {
+    const item = document.createElement('div');
+    item.className = 'gallery-item';
+    item.innerHTML = `<img src="${imagePath}" alt="Galerija slika ${index + 1}" loading="lazy">`;
+    galleryGrid.appendChild(item);
+  });
+}
 
         // Reasons
         const reasonsList = document.getElementById('reasonsList');
