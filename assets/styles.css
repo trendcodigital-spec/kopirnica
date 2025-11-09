@@ -136,7 +136,7 @@ gap: var(--spacing-md);
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
-    gap: 4rem; /* povećava razmak između teksta i slike */
+    gap: var(--spacing-lg);
 }
 
 }
@@ -159,10 +159,6 @@ gap: var(--spacing-md);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
-/* Pomjeranje slike u hero sekciji malo udesno na desktopu */
-.hero-image img {
-  transform: translateX(175px); /* pomakni 25px udesno */
-}
 
 /* Dodatno za velike ekrane */
 @media (min-width: 1024px) {
