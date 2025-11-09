@@ -93,9 +93,13 @@ ul {
 }
 
 .nav-logo img {
-    max-height: 40px;
-    width: auto;
+  width: 80px;         /* ili veličinu po želji */
+  height: 80px;
+  border-radius: 50%;  /* ovo pravi krug */
+  object-fit: cover;   /* slika se fino "upiše" u krug */
+  border: 2px solid #006c54; /* opcionalno, zelena ivica oko loga */
 }
+
 
 .nav-menu {
   display: flex;
