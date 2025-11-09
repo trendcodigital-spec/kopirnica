@@ -155,7 +155,7 @@ gap: var(--spacing-md);
 
 /* Pomjeranje slike u hero sekciji malo udesno na desktopu */
 .hero-image img {
-  transform: translateX(25px); /* pomakni 25px udesno */
+  transform: translateX(75px); /* pomakni 25px udesno */
 }
 
 /* Dodatno za velike ekrane */
