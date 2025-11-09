@@ -9,5 +9,11 @@
         { "key": "X-XSS-Protection", "value": "1; mode=block" }
       ]
     }
+  ],
+  "rewrites": [
+    { "source": "/content.json", "destination": "/content.json" },
+    { "source": "/assets/:path*", "destination": "/assets/:path*" },
+    { "source": "/public/:path*", "destination": "/public/:path*" },
+    { "source": "/", "destination": "/index.html" }
   ]
 }
