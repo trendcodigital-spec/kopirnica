@@ -98,8 +98,12 @@ ul {
 }
 
 .nav-menu {
-    display: flex;
-    gap: var(--spacing-md);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap; /* 🚫 sprječava prelazak u novi red */
+  gap: 1.2rem;       /* smanji razmak između linkova */
+  white-space: nowrap; /* 🚫 zabranjuje lomljenje teksta u linkovima */
 }
 
 .nav-menu a {
