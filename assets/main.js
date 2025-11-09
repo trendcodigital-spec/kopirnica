@@ -3,17 +3,11 @@
     'use strict';
 
     // Fetch content
-    fetch('content.json')
-        .then(response => {
-            if (!response.ok) throw new Error('Ne mogu učitati content.json');
-            return response.json();
-        })
-        .then(data => {
-            populatePage(data);
-        })
-        .catch(error => {
-            console.error('Greška pri učitavanju sadržaja:', error);
-        });
+    // Fetch content
+fetch('/content.json')   // <— promijeni iz 'content.json' u '/content.json'
+  .then(r => { if (!r.ok) throw new Error('Ne mogu učitati content.json'); return r.json(); })
+  .then(populatePage)
+  .catch(err => console.error('Greška pri učitavanju sadržaja:', err));
 
     function populatePage(content) {
         // Meta tags
