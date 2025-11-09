@@ -30,17 +30,17 @@
 
   "services": [
     { "title": "Fotokopiranje i skeniranje", "text": "Crno-bijelo i kolor kopiranje svih formata, brzo skeniranje u PDF.", "image": "/public/slika3.png" },
-    { "title": "Letci, brošure, plakati",      "text": "Profesionalna štampa promotivnih materijala na raznim papirima.",    "image": "/public/slika4.png" },
+    { "title": "Letci, brošure, plakati",      "text": "Profesionalna štampa promotivnih materijala na raznim papirima.",    "image": "/public/slika4.PNG" },
     { "title": "Uvez i plastifikacija",        "text": "Spiralni i termo uvez, A4/A3 plastifikacija dokumenata.",         "image": "/public/slika5.jpg" },
-    { "title": "Studentske usluge",            "text": "Skripte, skracivanje i priprema materijala, povoljne cijene.",    "image": "/public/slika6.png" },
-    { "title": "Digitalizacija dokumenata",    "text": "Skeniranje, USB/Email isporuka i arhiviranje.",                   "image": "/public/slika7.png" },
-    { "title": "Ekspres print",                "text": "Hitne narudžbe – dokumenti odmah spremni.",                       "image": "/public/slika4.jpg" }
+    { "title": "Studentske usluge",            "text": "Skripte, skracivanje i priprema materijala, povoljne cijene.",    "image": "/public/slika6.PNG" },
+    { "title": "Digitalizacija dokumenata",    "text": "Skeniranje, USB/Email isporuka i arhiviranje.",                   "image": "/public/slika7.PNG" },
+    { "title": "Ekspres print",                "text": "Hitne narudžbe – dokumenti odmah spremni.",                       "image": "/public/slika8.jpg" }
   ],
 
   "gallery": [
-    "/public/galerijaslika1.jpg",
-    "/public/galerijaslika2.png",
-    "/public/galerijaslika3.jpg"
+    "/public/galerijaslika1.JPG",
+    "/public/galerijaslika2.PNG",
+    "/public/galerijaslika3.JPG"
   ],
 
   "reasons": [
